@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f97c9974f05, pid=3732, tid=3796
+#
+# JRE version: OpenJDK Runtime Environment (11.0.7+10) (build 11.0.7+10)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.7+10, mixed mode, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x2f05]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/lib/systemd/systemd-coredump %P %u %g %s %t 9223372036854775808 %e" (or dumping to /home/pc-nina/eclipse-workspace/ALLIN-US/core.3732)
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:42055 -javaagent:/home/pc-nina/.var/app/org.eclipse.Java/eclipse/configuration/org.eclipse.osgi/215/0/.cp/lib/javaagent-shaded.jar -Dfile.encoding=UTF-8 --module-path=/home/pc-nina/eclipse-workspace/ALLIN-US/bin:/home/pc-nina/Bureau/rodrigue_projet/javafx-sdk-11.0.2/lib/javafx-swt.jar:/home/pc-nina/Bureau/rodrigue_projet/javafx-sdk-11.0.2/lib/javafx.web.jar:/home/pc-nina/Bureau/rodrigue_projet/javafx-sdk-11.0.2/lib/javafx.swing.jar:/home/pc-nina/Bureau/rodrigue_projet/javafx-sdk-11.0.2/lib/javafx.media.jar:/home/pc-nina/Bureau/rodrigue_projet/javafx-sdk-11.0.2/lib/javafx.graphics.jar:/home/pc-nina/Bureau/rodrigue_projet/javafx-sdk-11.0.2/lib/javafx.fxml.jar:/home/pc-nina/Bureau/rodrigue_projet/javafx-sdk-11.0.2/lib/javafx.controls.jar:/home/pc-nina/Bureau/rodrigue_projet/javafx-sdk-11.0.2/lib/javafx.base.jar:/home/pc-nina/Bureau/rodrigue_projet/java-json.jar -Djdk.module.main=ALLINUS ALLINUS/AllinusControler.StartAllinUs
+
+Host: 
